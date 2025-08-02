@@ -89,16 +89,6 @@ nexura/
 
 ---
 
-## 📌 Extras posibles
-
-- Autenticación con sesiones
-- Filtro de búsqueda por nombre o área
-- Exportar a Excel o PDF
-- Paginación de resultados
-- Rutas limpias (tipo `/crear`, `/editar/5`) con `router.php`
-
----
-
 ## 🧑‍💻 Autor
 
 Desarrollado por Diego Fernando Muñoz Jansasoy  
