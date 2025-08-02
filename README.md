@@ -58,7 +58,7 @@ nexura/
 1. Clona el proyecto o copia los archivos a `htdocs/nexura`
 2. Crea la base de datos en MySQL:
 
-   - Ejecuta el script SQL proporcionado (`database.sql`) en MySQL Workbench o phpMyAdmin
+   - Ejecuta el script SQL proporcionado (`nexura.sql`) en MySQL Workbench o phpMyAdmin
    - O usa el script de inserción para cargar datos de prueba
 
 3. Abre XAMPP y enciende Apache + MySQL
