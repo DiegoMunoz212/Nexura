@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /nexura/
+
+RewriteRule ^$ views/empleados/listar.php [L]
+
+RewriteCond %{REQUEST_URI} ^/nexura/views/empleados/(listar\.php)?$ [OR]
+RewriteCond %{REQUEST_URI} ^/nexura/views/empleados/crear\.php$ [OR]
+RewriteCond %{REQUEST_URI} ^/nexura/views/empleados/editar\.php$ [OR]
+RewriteCond %{REQUEST_URI} ^/nexura/controllers/EmpleadoController\.php$
+RewriteRule ^ - [L]
+
+RewriteRule ^.*$ views/empleados/listar.php [L] 
